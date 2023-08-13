@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(temperature.jpg);
+    background-size: cover;
+    color: black;
+   display: grid;
+   justify-content: center;
+   margin-top: 100px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+  
+}
+
+label {
+    display: block;
+    margin: 20px; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.border {
+  border: 2px;
+  padding: 45px;
+  background-color: rgb(172, 170, 170, 0.7);
+  border-radius: 20px;
+}
+
+
+.option {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+/* h3 {
+    margin: 20px 10px 10px 10px;
+} */
+

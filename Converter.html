@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Temperature Converter</title>
+       <link rel="stylesheet" href="Converter.css">
+    </head>
+    <body class="container">
+
+        <section class="border">
+
+         <div class="section1">
+          <h1>April's Temperature Converter</h1>
+          <!-- <h3>From</h3> -->
+          <label for="from">From</label>
+          <input type="number" placeholder="Enter Degree" id="from" >
+          <select id="from">
+            <option>Celcius</option>
+            <option>Kelvin</option>
+            <option>Farenheit</option>
+          </select>  
+         </div>
+
+         <div class="section2">  
+            <!-- <h3>To</h3> -->
+            <label for="to">To</label>
+          <select class="option" id="to">
+            <option>Kelvin </option>
+            <option>Celcius </option>
+            <option>Farenheit</option>
+          </select>
+         </div>
+
+         <div class="section3">
+            <!-- <h3>Result</h3> -->
+            <label for="Result">Result</label>
+            <input type="number" placeholder="Result" id="result">
+         </div>
+        </section>
+
+        <script src="converter.js"></script>
+    </body>
+</html>
+
